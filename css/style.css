@@ -13,3 +13,9 @@ p {
     padding: 8px 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 16px ;
+}
