@@ -1,7 +1,7 @@
 data = {
     title: "Heading 1",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eos pariatur iusto rerum deleniti quaerat corporis accusantium modi, beatae id possimus minus repudiandae vel quae placeat consequatur necessitatibus reiciendis quasi!",
-    img: "https://th.bing.com/th?id=ORMS.08ea98915db459c2a80c765c57c11bb3&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0",
+    img: "https://th.bing.com/th?id=ORMS.bded6c86daf0f22946ed115073554ad8&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0",
     alt: "This country lost one of its biggest markets after 'aiding' the US"
 }
 
@@ -35,3 +35,11 @@ title.style.padding = "12px";
 content.style.padding = "8px 16px";
 content.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
 content.style.wordBreak = "break-all";
+
+img.addEventListener("load", function() {
+    img.classList.add("img");
+});
+
+// img.addEventListener("mouseout", function() {
+//     img.classList.remove("img");
+// });
