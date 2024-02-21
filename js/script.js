@@ -27,3 +27,11 @@ container.appendChild(title);
 container.appendChild(content);
 // append img
 container.appendChild(img);
+
+// css 
+title.style.textAlign = "center";
+title.style.padding = "12px";
+
+content.style.padding = "8px 16px";
+content.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+content.style.wordBreak = "break-all";
