@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-img {
+.img {
     width: 100%;
-    height: auto;
-    padding: 16px ;
+    height: 60vh;
+    padding: 16px;
+    border-radius: 25px 15px;
 }
